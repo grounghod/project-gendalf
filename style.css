@@ -1,0 +1,121 @@
+body {
+  font-family: Arial;
+  color: white;
+  display: flex;
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #D9D9D9;
+  width: 70%;
+}
+
+.right {
+  right: 0;
+  background-color: #ACB2BD;
+  width: 30%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+figure {
+ width: 100%; /* Ширина области */
+ height: 400px; /* Высота области */
+ margin: 0; /* Обнуляем отступы */
+}
+figure img { 
+ width: 100%; /* Ширина изображений */
+ height: 100%; /* Высота изображении */
+ object-fit: cover; /* Вписываем фотографию в область */
+}
+
+}body {
+  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(1.jfif);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0,0,0,.7);
+  border-radius: 12px;
+}
+
+.form h1 {
+  font-family: !important;
+  margin: 30px 100px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.input-form {
+  margin: 15px 40px;
+  text-align: center;
+}
+
+.input-form input {
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: 0.25s;
+}
+
+.input-form input[type="text"]:focus, .input-form input[type="password"]:focus {
+  border: 1px solid #0fc3f5;
+}
+
+.input-form input[type="submit"] {
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background: #0fc3f5;
+  transition: .3s;
+}
+
+.input-form input[type="submit"]:hover {
+  background: #4442db;
+}
+
+.form a {
+  display: block;
+  padding: 0 0 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.form a:hover {
+  color: #0fc3f5;
+}
