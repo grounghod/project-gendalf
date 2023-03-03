@@ -1,4 +1,6 @@
 body {
+  padding: 0;
+  margin: 0;
   font-family: Arial;
   color: white;
   display: flex;
@@ -14,14 +16,22 @@ body {
 }
 
 .left {
-  left: 0;
-  background-color: #D9D9D9;
+  
+  background-image: url("gg.jpg") ;
+  background-repeat: no-repeat;
   width: 70%;
+  background-size: 1350px 970px;
+  
+}
+
+.logo-ufy {
+  width: 244px;
+  height: 243px;
 }
 
 .right {
   right: 0;
-  background-color: #ACB2BD;
+  background-color: #6FBAFF;
   width: 30%;
 }
 
@@ -54,11 +64,11 @@ figure img {
 
 .form {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  
   transform: translate(-50%,-50%);
   background: rgba(0,0,0,.7);
   border-radius: 12px;
+  margin-top: 7em;
 }
 
 .form h1 {
@@ -99,12 +109,12 @@ figure img {
   font-weight: bold;
   text-transform: uppercase;
   border: none;
-  background: #0fc3f5;
+  background: white;
   transition: .3s;
 }
 
 .input-form input[type="submit"]:hover {
-  background: #4442db;
+  background: #6FBAFF;
 }
 
 .form a {
@@ -118,4 +128,108 @@ figure img {
 
 .form a:hover {
   color: #0fc3f5;
+}
+
+.logo-right {
+
+margin-left: 180px;
+padding-top: 88px;
+padding-bottom: 100px;
+}
+
+#vhod {
+  color: black;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+
+  .logo-right {
+
+    margin-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+    }
+
+    .left {
+  
+      background-image: url("gg.jpg") ;
+      background-repeat: no-repeat;
+      width: 60%;
+      background-size: 1024px 856px;
+      
+    }
+
+    .right {
+      right: 0;
+      background-color: #6FBAFF;
+      width: 40%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:1440px)   {
+
+  .form {
+    position: absolute;
+    height: 343px;
+    width: 350px;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,.7);
+    border-radius: 12px;
+    margin-top: 5em;
+  }
+  
+  .title-in-form {
+    position: relative;
+    right: 12px;
+  }
+
+  .input-form input[type="submit"] { 
+
+    margin-top: 6px;
+  }
+
+  .form a {
+    padding: 0 0 9px;
+  }
+
+
+
+  .input-form {
+   
+  }
+
+  .img-logo-right {
+   height: 200px; 
+  }
+
+  .logo-right {
+position: absolute;
+    margin-left: 110px;
+    padding-top: 10px;
+    
+    
+    }
+  
+  
+
+    .left {
+  
+      background-image: url("gg.jpg") ;
+      background-repeat: no-repeat;
+      width: 80%;
+      background-size: 925px 659px;
+      
+    }
+
+    .logo-ufy {
+      width: 191px;
+      height: 202px;
+
 }
