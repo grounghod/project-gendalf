@@ -1,0 +1,111 @@
+html {
+    overflow-y: none;
+}
+
+
+body {
+ padding: 0;
+ margin: 0;   
+}
+
+.head {
+    background: #1e5799;
+    background: -moz-linear-gradient(left, #1e5799 0%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #1e5799 0%,#7db9e8 100%);
+    background: linear-gradient(to right, #1e5799 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+  margin-bottom: 150px;
+}
+
+.img-in-head {
+    height: 100px;
+    
+    margin-left: 5px;
+}
+
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spisok-in-head {
+    display: flex;
+    
+}
+
+.button-in-head {
+height: 50px;
+width: 150px;
+border-radius: 20px;
+border: white;
+margin-top: 30px;
+margin-right: 20px;
+font-size: 20px;
+}
+
+button {
+    color: #2973E3;
+    
+}
+
+
+ul li {
+
+margin-right: 80px;  
+margin-top: 45px;  
+
+}
+
+ul li:last-child {
+
+ margin-right: 0px;   
+}
+
+ul li a {
+    color: white;
+    font-size: 35px;
+}
+
+ul li a:hover {
+    color: white;
+
+}
+
+
+button:hover {
+color: black;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);   
+}
+
+.container-fluid {
+
+    margin: 0 auto;
+    width: 1300px;
+    display: flex;
+justify-content: space-between;
+}
+
+.img-in-left-section {
+
+height: 350px;
+
+}
+
+
+.right-section {
+
+    
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-right: 40px;
+}
+
+.text-in-right-section {
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    color: #2973E3;
+    font-family: 'Philosopher', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
