@@ -190,7 +190,7 @@ input[type="submit"]
 
   .form {
     position: absolute;
-    height: 343px;
+    height: 370px;
     width: 350px;
     transform: translate(-50%,-50%);
     background: rgba(0,0,0,.7);
@@ -237,7 +237,7 @@ position: absolute;
       background-image: url("gg.jpg") ;
       background-repeat: no-repeat;
       width: 80%;
-      background-size: 920px 659px;
+      background-size: 937px 659px;
       
     }
 
@@ -246,4 +246,9 @@ position: absolute;
       height: 202px;
 
 }
+
+.form h1 {
+  margin: 30px auto;
+}
+
 }
