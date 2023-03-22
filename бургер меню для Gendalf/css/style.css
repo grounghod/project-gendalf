@@ -17,7 +17,7 @@ margin-bottom: 15px;
   
   .img-in-head {
       height: 100px;
-      
+      z-index: 3;
       margin-left: 5px;
   }
   
@@ -34,7 +34,7 @@ margin-bottom: 15px;
   ul li {
 
     margin-right: 80px;  
-    margin-top: 45px;  
+    margin-top: 35px;  
     
     }
     
@@ -141,4 +141,17 @@ a {
 	font-size: 15px;
 	color: #fcfffc;
 	opacity: 0.7;
+}
+
+.offcanvas {
+ z-index: 1; 
+ margin-top: 100px;
+ background-color: #E7EDFF;
+ 
+}
+
+.monserat {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Poppins', sans-serif;
 }

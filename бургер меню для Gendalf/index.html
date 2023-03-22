@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Philosopher&family=Poppins:wght@800&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -19,12 +23,53 @@
         <nav class="nav-head">
         <img class="img-in-head" src="./img/407677 копия.png" alt="">
         <ul class="spisok-in-head">
-            <li> <a class="project" href="">Проекты</a> </li>
-            <li><a href="">Группы</a></li>
-            <li><a href="">Задачи</a></li>
+            <li> <a class="monserat"  data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasExample">
+                Проекты
+              </a>
+              
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Мои проекты</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <p>Попробуйте прокрутить оставшуюся часть страницы, чтобы увидеть эту опцию в действии.</p>
+                </div>
+              </div> </li>
+
+
+            <li><a class="monserat"  data-bs-toggle="offcanvas" href="#аoffcanvasScrolling" role="button" aria-controls="offcanvasExample">
+                Группы
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="аoffcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas с прокруткой тела</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <p>lo</p>
+                    </div>
+                  </div>
+
+              </a></li>
+
+            <li><a class="monserat"  data-bs-toggle="offcanvas" href="#аaoffcanvasScrolling" role="button" aria-controls="offcanvasExample">Задачи</a></li>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="аaoffcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas с прокруткой тела</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <p>loфывфывфвф</p>
+                </div>
+              </div>
+
+
+
         </ul>
         <div class="kabinet">
-            <a href=""><button class="button-in-head">Кочнев</button></a>
+            <a class="monserat"  href=""><button  class="button-in-head">Кочнев</button></a>
             <a href=""><img class="user" src="./img/image 3.svg" alt=""></a>
         </nav>
         
@@ -34,36 +79,12 @@
  </div>   
 </div>    
 </header>
+
 <div class=".container-{breakpoint}">
     <div class="row">
    <div class="col-12">
       
-    <section>
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>ssttrano</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-        <body>
-            <div class="menu">
-                <div class="title"><h1>Мои проекты</h1></div>
-                <div class="list_menu">
-                    <ul>
-                        <li><a href="">проект 1</a></li>
-                        <li><a href="">проект 2</a></li>
-                        <li><a href="">проект 3</a></li>
-                        <li><a href="">проект 4</a></li>
-                    </ul>
-                    
-                </div>
-                <div class="footer_menu">
-                    <p>©Gendalf 1993-2023</p>
-                </div>
-            </div>
-            
+    
         </body>
         </html>
     </section>          
