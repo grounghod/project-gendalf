@@ -30,6 +30,7 @@ body {
 
 .spisok-in-head {
     display: flex;
+
     
 }
 
@@ -52,7 +53,7 @@ button {
 ul li {
 
 margin-right: 80px;  
-margin-top: 45px;  
+margin-top: 36px;  
 
 }
 
