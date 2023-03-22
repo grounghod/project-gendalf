@@ -1,7 +1,16 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
   font-family: Arial;
   color: white;
   display: flex;
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
 }
 
 .split {
@@ -140,21 +149,42 @@ padding-bottom: 100px;
 }
 
 @media (max-width:1600px)   {
+  .split{
+    padding-top: 0;
+  }
+  .logo{
+    width: 180px;
+    height: 205px;
+  }
 
+  .input-form {
+    
+  }
+
+.logo-ufy {
+  width: 230px;
+}
 
   .logo-right {
 
     margin-left: 100px;
     padding-top: 20px;
     padding-bottom: 100px;
+    
     }
+
+.form {
+  margin-top: 7em;
+}
+
 
     .left {
   
       background-image: url("gg.jpg") ;
       background-repeat: no-repeat;
       width: 80%;
-      background-size: 1106px 900px;
+      background-size: 970px 630px;
+      
       
     }
 
@@ -162,6 +192,7 @@ padding-bottom: 100px;
 
 @media (max-width: 1199px) {
 
+  
   .logo-right {
 
     margin-left: 90px;
