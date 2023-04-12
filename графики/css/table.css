@@ -1,0 +1,166 @@
+.fsdfsf {
+    
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+
+
+}
+.table table {
+    border: 1px solid #000000;
+    width: 1158px;
+    text-align: center;
+    
+font-family: 'Poppins', sans-serif;
+position: relative;
+z-index: 494;
+}
+
+.table table  tr {
+    border: 1px solid #000000
+}
+
+.table table  tr th {
+    border: 1px solid #000000
+}
+
+.table table  tr td {
+    border: 1px solid #000000
+}
+
+.project {
+    padding-top: 19px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+
+
+}
+
+.mechasd {
+    
+font-family: 'Poppins', sans-serif;
+width: 85px;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+
+
+}
+
+
+.god {
+   
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+
+
+}
+
+.text-table {
+    height: 68px;
+    text-align: center;
+    padding-top: 12px;
+    
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 200;
+line-height: 24px;
+letter-spacing: 0em;
+
+
+}
+
+
+.one-block {
+    display: flex;
+width: 256px;
+height: 35px;
+position: absolute;
+z-index: 500;
+top: 228px;
+left: 161px;
+}
+
+.one-block__left {
+width: 256px;
+background: #0047FF;
+
+}
+
+.one-block__right {
+    width: 25px;
+    background: #FF0000;
+
+}
+
+.two-block {
+    display: flex;
+    width: 207px;
+    height: 35px;
+    position: absolute;
+z-index: 500;
+top: 300px;
+    left: 291px;
+}
+
+.two-block__left{
+    background: #0047FF;
+width: 182px;
+}
+
+.two-block__right{
+    width: 25px;
+    background-color: #FF0000;
+}
+
+
+.three-block {
+    display: flex;
+    width: 152px;
+    height: 35px;
+    position: absolute;
+z-index: 500;
+top: 365px;
+    left: 639px;
+}
+
+.three-block__left {
+    width: 127px;
+    background: #0047FF;
+}
+
+.three-block__right {
+    width: 25px;
+    background-color: #FF0000; 
+}
+
+
+.four-block {
+    display: flex;
+    width: 172px;
+    height: 35px;
+    position: absolute;
+z-index: 500;
+top: 437px;
+    left: 959px;
+}
+
+
+.four-block__left {
+    width: 150px;
+    background: #0047FF;
+}
+
+.four-block__right {
+    width: 25px;
+    background-color: #FF0000; 
+}
